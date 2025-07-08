@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-:root {
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.Hero-Section {
   background-image: url("./assets/vectors/Vector.png");
   background-repeat: no-repeat;
-  background-size: cover;
-
-  font-family: "Source Sans 3", sans-serif;
+  background-size: 100% 100%;
 }

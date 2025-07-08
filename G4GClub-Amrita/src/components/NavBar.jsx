@@ -3,12 +3,12 @@ import Logo from "../assets/images/logo.png";
 export default function NavBar() {
   return (
     <>
-      <div className="flex items-center justify-between py-3 px-10">
+      <div className="flex items-center justify-between py-3 px-10 bg-[#3AB284]">
         {/* GFG Amrita Campus Body Logo*/}
-        <img src={Logo} alt="Logo" width="150px" height="150px" />
+        <img src={Logo} alt="Logo" width="165px" height="165px" />
 
         <nav className="pr-10">
-          <ul className="flex gap-10">
+          <ul className="flex gap-10 text-lg">
             <li>
               <a href="/">Home</a>
             </li>
