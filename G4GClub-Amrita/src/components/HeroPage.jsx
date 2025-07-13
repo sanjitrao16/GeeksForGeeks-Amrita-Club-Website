@@ -30,17 +30,24 @@ export default function HeroPage() {
             suscipit repellendus.
           </p>
 
-          <div className="Social-Media mt-15 flex gap-5">
-            <a href="#">
+          <div className="Social-Media mt-10 flex gap-6 items-center">
+            <a href="#" className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]">
               <img
                 src={LinkedIn}
                 alt="LinkedIn-Logo"
-                width="30px"
-                height="30px"
+                width="22px"
+                height="22px"
+                className="group-hover:filter group-hover:brightness-0 group-hover:invert"
               />
             </a>
-            <a href="#">
-              <img src={GitHub} alt="GitHub-Logo" width="30px" height="30px" />
+            <a href="#" className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]">
+              <img
+                src={GitHub}
+                alt="GitHub-Logo"
+                width="22px"
+                height="22px"
+                className="group-hover:filter group-hover:brightness-0 group-hover:invert"
+              />
             </a>
           </div>
         </div>
