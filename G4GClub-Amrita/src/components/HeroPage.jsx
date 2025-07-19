@@ -18,20 +18,15 @@ export default function HeroPage() {
             </span>
           </h1>
 
-          <p className="mt-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus ullam blanditiis <br />
-            doloribus sequi.A eius necessitatibus minus nesciunt labore modi ea
-            culpa! Eum veniam <br />
-            at explicabo dolorem exercitationem consectetur eaque blanditiis
-            illum nulla suscipit totam
-            <br /> qui harum dolor, voluptatem repellendus sit voluptatum
-            distinctio? Facere, praesentium! <br /> Minima voluptas inventore
-            suscipit repellendus.
+          <p className="mt-4 font-bold text-white">
+            Code Today, Lead Tomorrow.
           </p>
 
-          <div className="Social-Media mt-10 flex gap-6 items-center">
-            <a href="#" className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]">
+          <div className="Social-Media mt-12 flex gap-6 items-center">
+            <a
+              href="#"
+              className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]"
+            >
               <img
                 src={LinkedIn}
                 alt="LinkedIn-Logo"
@@ -40,7 +35,10 @@ export default function HeroPage() {
                 className="group-hover:filter group-hover:brightness-0 group-hover:invert"
               />
             </a>
-            <a href="#" className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]">
+            <a
+              href="#"
+              className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]"
+            >
               <img
                 src={GitHub}
                 alt="GitHub-Logo"

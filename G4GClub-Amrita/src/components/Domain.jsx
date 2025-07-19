@@ -3,44 +3,32 @@ export default function Domain() {
     "Domain-1": {
       title: "Data Structures & Algorithms",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel natus nemo error. Esse debitis assumenda sed omnis ab consectetur?",
-      lead: "Gowtham Hari S",
-      linkedin: "https://www.linkedin.com/in/gowtham1310/",
+        "This domain focuses on mastering efficient data organization and processing. Students learn data structures and algorithms vital for optimizing code and solving complex problems. Proficiency in DSA is crucial for technical interviews and securing placements in leading tech companies.",
     },
     "Domain-2": {
       title: "Competitive Programming",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel natus nemo error. Esse debitis assumenda sed omnis ab consectetur?",
-      lead: "Sunil Raj",
-      linkedin: "#",
+        "This domain is dedicated to enhancing problem-solving abilities and coding proficiency under timed conditions. Participants will develop skills in designing and implementing efficient algorithms to excel in coding competitions and technical assessments.",
     },
     "Domain-3": {
       title: "AI & ML",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel natus nemo error. Esse debitis assumenda sed omnis ab consectetur?",
-      lead: "Sandeep Vigneshwar",
-      linkedin: "https://www.linkedin.com/in/sandeepvigneshwar/",
+        "This domain explores the principles and applications of Artificial Intelligence and Machine Learning. Topics covered include machine learning algorithms, neural networks, natural language processing, and computer vision, enabling students to understand and build intelligent systems.",
     },
     "Domain-4": {
       title: "Mobile App Development",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel natus nemo error. Esse debitis assumenda sed omnis ab consectetur?",
-      lead: "Chandru S",
-      linkedin: "https://www.linkedin.com/in/chandru1106/",
+        "This domain provides comprehensive knowledge and practical skills for creating mobile applications. Students will learn the frameworks and tools necessary to design, develop, and deploy functional applications for various mobile platforms.",
     },
     "Domain-5": {
       title: "Web Development",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel natus nemo error. Esse debitis assumenda sed omnis ab consectetur?",
-      lead: "Sanjit Rao",
-      linkedin: "https://www.linkedin.com/in/sanjitrao16/",
+        "This domain covers the core technologies and methodologies used in building websites and web applications. It encompasses both front-end (user interface) and back-end (server-side logic) development, equipping students to create dynamic and interactive web solutions.",
     },
     "Domain-6": {
       title: "Internet of Things (IoT)",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel natus nemo error. Esse debitis assumenda sed omnis ab consectetur?",
-      lead: "Pranav S",
-      linkedin: "https://www.linkedin.com/in/pranav-srikarthik-762182284/",
+        "This domain introduces the concepts and applications of the Internet of Things. Students will explore how physical devices are interconnected and learn to integrate hardware and software components to develop smart, connected systems and innovative IoT solutions.",
     },
   };
 
@@ -63,16 +51,9 @@ export default function Domain() {
               <p className="text-center font-bold text-lg text-[#265645] mb-2">
                 {domain.title}
               </p>
-              <p className="text-sm text-[#265645] mb-3 text-center">
+              <p className="text-sm text-[#265645] mb-3 text-justify">
                 {domain.description}
               </p>
-              <a
-                href={domain.linkedin}
-                target="_blank"
-                className="inline-block bg-[#265645] text-white font-semibold border-1 border-[#265645] text-xs px-3 py-1 rounded-full shadow hover:bg-white hover:text-[#265645] hover:border-1"
-              >
-                Lead: {domain.lead}
-              </a>
             </div>
           ))}
         </div>

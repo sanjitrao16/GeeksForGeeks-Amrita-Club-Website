@@ -8,7 +8,7 @@ export default function NavBar() {
         <img src={Logo} alt="Logo" width="165px" height="165px" />
 
         <nav className="pr-10">
-          <ul className="flex gap-10 text-lg">
+          <ul className="flex gap-10 text-lg text-white font-semibold">
             <li>
               <a href="/">Home</a>
             </li>
