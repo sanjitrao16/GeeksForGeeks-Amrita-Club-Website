@@ -6,6 +6,7 @@ import Team from "./components/Team.jsx";
 import Events from "./components/Events.jsx";
 import About from "./components/About.jsx";
 import Developers from "./components/Developers.jsx";
+import ContactUs from "./components/ContactUs.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Team></Team>
       <About></About>
       <Developers></Developers>
+      <ContactUs></ContactUs>
     </>
   );
 }

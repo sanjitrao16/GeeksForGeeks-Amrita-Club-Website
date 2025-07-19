@@ -24,7 +24,8 @@ export default function HeroPage() {
 
           <div className="Social-Media mt-12 flex gap-6 items-center">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/geeksforgeeks-campus-body-amrita-vishwa-vidyapeetham-chennai-51b697361/"
+              target="_blank"
               className="group rounded-full bg-white shadow-lg hover:bg-[#265645] transition-colors duration-300 p-2 flex items-center justify-center border-2 border-[#265645]"
             >
               <img

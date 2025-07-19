@@ -95,8 +95,8 @@ export default function Team() {
                     width={member.imageWidth}
                     height={member.imageHeight}
                   />
-                  <p className="text-center">{member.name}</p>
-                  <p className="text-center">{member.role}</p>
+                  <p className="text-center font-bold">{member.name}</p>
+                  <p className="text-center italic">{member.role}</p>
                   <div className="flex justify-center">
                     <a href={member.linkedin} target="_blank">
                       <img
@@ -121,8 +121,8 @@ export default function Team() {
                     width={member.imageWidth}
                     height={member.imageHeight}
                   />
-                  <p className="text-center">{member.name}</p>
-                  <p className="text-center">{member.role}</p>
+                  <p className="text-center font-bold">{member.name}</p>
+                  <p className="text-center italic">{member.role}</p>
                   <div className="flex justify-center">
                     <a href={member.linkedin} target="_blank">
                       <img
@@ -147,8 +147,8 @@ export default function Team() {
                     width={member.imageWidth}
                     height={member.imageHeight}
                   />
-                  <p className="text-center">{member.name}</p>
-                  <p className="text-center">{member.role}</p>
+                  <p className="text-center font-bold">{member.name}</p>
+                  <p className="text-center italic">{member.role}</p>
                   <div className="flex justify-center">
                     <a href={member.linkedin} target="_blank">
                       <img
