@@ -78,7 +78,7 @@ export default function Team() {
   };
   return (
     <>
-      <div className="mt-5 p-3">
+      <div className="Team-Section mt-5 p-3">
         <h2 className="text-center text-2xl font-extrabold mb-6 tracking-wide drop-shadow">
           Our Core Team
         </h2>
