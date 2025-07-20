@@ -1,5 +1,6 @@
 import GitHub from "../assets/social-media/GitHub.svg";
 import LinkedIn from "../assets/social-media/LinkedIn-Logo.svg";
+import Sanjit from "../assets/members/Sanjit.jpg";
 
 export default function Developers() {
   const developers = {
@@ -7,7 +8,7 @@ export default function Developers() {
       name: "Sanjit Rao",
       github: "https://github.com/sanjitrao16",
       linkedin: "https://www.linkedin.com/in/sanjitrao16/",
-      image: "#",
+      image: Sanjit,
     },
     Dev2: {
       name: "Lohith Guru",
@@ -28,7 +29,7 @@ export default function Developers() {
               <img
                 src={dev.image}
                 alt={`Profile`}
-                className="w-28 h-28 rounded-full mb-4 border-4 border-white object-cover shadow"
+                className="w-30 h-30 rounded-full mb-4 border-3 border-white object-cover shadow"
               />
               <h3 className="text-xl font-bold mb-1 text-center">{dev.name}</h3>
               <div className="flex space-x-6">

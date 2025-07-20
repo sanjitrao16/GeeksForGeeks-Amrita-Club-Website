@@ -19,7 +19,7 @@ export default function NavBar() {
               <a href="/events">Gallery</a>
             </li>
             <li>
-              <a href="/contact">Contact Us</a>
+              <a href="#contact-us">Contact Us</a>
             </li>
           </ul>
         </nav>
