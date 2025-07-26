@@ -7,18 +7,26 @@ import Events from "./components/Events.jsx";
 import About from "./components/About.jsx";
 import Developers from "./components/Developers.jsx";
 import ContactUs from "./components/ContactUs.jsx";
+import Gallery from "./components/Gallery.jsx";
 
 function App() {
+  const [activeSection, setActiveSection] = useState("home");
   return (
     <>
-      <NavBar></NavBar>
-      <HeroPage></HeroPage>
-      <Domain></Domain>
-      <Events></Events>
-      <Team></Team>
-      <About></About>
-      <Developers></Developers>
-      <ContactUs></ContactUs>
+      <NavBar onNavigate={setActiveSection} />
+      {activeSection === "gallery" ? (
+        <Gallery />
+      ) : (
+        <>
+          <HeroPage />
+          <Domain />
+          <Events />
+          <Team />
+          <About />
+          <Developers />
+          <ContactUs />
+        </>
+      )}
     </>
   );
 }
