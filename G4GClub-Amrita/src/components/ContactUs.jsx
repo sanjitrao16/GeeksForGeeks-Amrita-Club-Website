@@ -1,4 +1,6 @@
+import { useState } from "react";
 export default function ContactUs() {
+
   return (
     <>
       <div className="ContactUs-Section mt-3 p-3" id="contact-us">
@@ -10,7 +12,7 @@ export default function ContactUs() {
           <span className="italic font-bold">geeksforgeeks@ch.amrita.edu</span>
         </p>
         <form
-          action=""
+          action="https://formsubmit.co/geeksforgeeks@ch.amrita.edu"
           method="post"
           className="flex flex-col items-center w-full max-w-2xl mx-auto p-5 gap-6"
         >
@@ -26,7 +28,6 @@ export default function ContactUs() {
               <input
                 type="email"
                 name="email"
-                placeholder="Your Email"
                 className="border-2 border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-[#265645] transition w-full"
                 required
               />

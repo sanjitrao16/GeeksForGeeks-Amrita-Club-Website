@@ -1,6 +1,7 @@
 import GitHub from "../assets/social-media/GitHub.svg";
 import LinkedIn from "../assets/social-media/LinkedIn-Logo.svg";
 import Sanjit from "../assets/members/Sanjit.jpg";
+import kishore from "../assets/members/kishore.jpg";
 
 export default function Developers() {
   const developers = {
@@ -15,6 +16,12 @@ export default function Developers() {
       github: "https://github.com/LOHITHPRO",
       linkedin: "https://www.linkedin.com/in/lohithpro/",
       image: "#",
+    },
+    Dev3:{
+      name:"Kishore ganapathy",
+      github:"https://github.com/kishoreganapathy",
+      linkedin:"www.linkedin.com/in/sskishore-ganapathy",
+      image: kishore
     },
   };
   return (

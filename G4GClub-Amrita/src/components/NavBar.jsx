@@ -9,17 +9,17 @@ export default function NavBar() {
 
         <nav className="pr-10">
           <ul className="flex gap-10 text-lg text-white font-semibold">
-            <li>
-              <a href="/">Home</a>
+            <li >
+              <a href="/" className="text-white hover:bg-white hover:text-green-500 px-4 py-2 rounded-xl transition-all duration-350 cursor-pointer">Home</a>
             </li>
-            <li>
-              <a href="#events">Events</a>
+            <li >
+              <a href="#events" className="text-white hover:bg-white hover:text-green-500 px-4 py-2 rounded-xl transition-all duration-350 cursor-pointer">Events</a>
             </li>
-            <li>
-              <a href="/events">Gallery</a>
+            <li >
+              <a href="/events" className="text-white hover:bg-white hover:text-green-500 px-4 py-2 rounded-xl transition-all duration-350 cursor-pointer">Gallery</a>
             </li>
-            <li>
-              <a href="#contact-us">Contact Us</a>
+            <li >
+              <a href="#contact-us" className="text-white hover:bg-white hover:text-green-500 px-4 py-2 rounded-xl transition-all duration-350 cursor-pointer">Contact Us</a>
             </li>
           </ul>
         </nav>
