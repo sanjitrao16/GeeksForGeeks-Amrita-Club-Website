@@ -2,6 +2,7 @@ import LeftArrow from "../assets/icons/Chevron left.svg";
 import RightArrow from "../assets/icons/Chevron right.svg";
 
 import { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Events() {
   const pastEvents = {
@@ -12,16 +13,21 @@ export default function Events() {
         "Inauguration of the GeeksforGeeks Campus Body at Amrita University.",
       image: "#",
     },
-  };
-
-  const upcomingEvents = {
-    "Event-1": {
+    "Event-2": {
       title: "DSA & Placement Guidance with Raghav Garg",
       date: "20-07-2025",
       description: "A online workshop on DSA and placement guidance.",
       image: "#",
     },
+    "Event-3": {
+      title: "Resume Builder Event",
+      date: "28-07-2025",
+      description: "An event focused on building effective resumes.",
+      image: "#",
+    },
   };
+
+  const upcomingEvents = {};
   // Refs and state for scroll button visibility
   const pastRef = useRef(null);
   const [showPastLeft, setShowPastLeft] = useState(false);
@@ -109,8 +115,15 @@ export default function Events() {
         <h2 className="text-center text-2xl font-extrabold mb-6 tracking-wide drop-shadow">
           Events
         </h2>
-        <div className="PastEvents ml-10">
-          <h2 className="text-lg text-[#265645] font-bold mb-4">Past Events</h2>
+        <div className="PastEvents ml-10 mr-30">
+          <p className="flex items-center justify-between">
+            <h2 className="text-lg text-[#265645] font-bold mb-4">
+              Past Events
+            </h2>
+            <Link to="/events" className="underline hover:text-[#265645]">
+              See More
+            </Link>
+          </p>
           <div className="relative">
             {showPastLeft && (
               <button

@@ -1,25 +1,33 @@
 import Logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
-export default function NavBar({ onNavigate }) {
+export default function NavBar() {
   return (
     <>
       <div className="flex items-center justify-between py-3 px-10 bg-[#3AB284]">
-        {/* GFG Amrita Campus Body Logo*/}
+        {/* GFG Amrita Campus Body Logo */}
         <img src={Logo} alt="Logo" width="165px" height="165px" />
-
         <nav className="pr-10">
           <ul className="flex gap-10 text-lg text-white font-semibold">
             <li>
-              <a href="#" onClick={e => { e.preventDefault(); onNavigate && onNavigate("home"); }}>Home</a>
+              <Link to="/" className="hover:underline">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#events" onClick={e => { if (onNavigate) { e.preventDefault(); onNavigate("events"); } }}>Events</a>
+              <Link to="/events" className="hover:underline">
+                Events
+              </Link>
             </li>
             <li>
-              <a href="#" onClick={e => { e.preventDefault(); onNavigate && onNavigate("gallery"); }}>Gallery</a>
+              <Link to="/gallery" className="hover:underline">
+                Gallery
+              </Link>
             </li>
             <li>
-              <a href="#contact-us" onClick={e => { if (onNavigate) { e.preventDefault(); onNavigate("contact"); } }}>Contact Us</a>
+              <Link to="/#contact-us" className="hover:underline">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </nav>
