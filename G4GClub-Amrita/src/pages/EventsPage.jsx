@@ -28,7 +28,6 @@ export default function EventsPage() {
 
   const upcomingEvents = {};
 
-  // Helper function to generate event cards
   function renderEvents(events) {
     if (!events || Object.keys(events).length === 0) {
       return (
@@ -72,14 +71,14 @@ export default function EventsPage() {
         All Events
       </h1>
       <section className="mb-14">
+        <h2 className="text-xl text-[#265645] font-bold mb-4">Past Events</h2>
+        {renderEvents(pastEvents)}
+      </section>
+      <section>
         <h2 className="text-xl text-[#265645] font-bold mb-4">
           Upcoming Events
         </h2>
         {renderEvents(upcomingEvents)}
-      </section>
-      <section>
-        <h2 className="text-xl text-[#265645] font-bold mb-4">Past Events</h2>
-        {renderEvents(pastEvents)}
       </section>
     </div>
   );
